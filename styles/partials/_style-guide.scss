@@ -1,0 +1,23 @@
+.typography-demo {
+
+}
+
+.brand-colors-demo {
+
+	.swatch {
+		width: 100%;
+		height: 60px;
+		background: #ddd;
+		margin: 0 0 .5em;
+		&.brightBlue { background: #48f1fd; }
+	}
+
+}
+
+
+.style-guide-icon-grid {
+	svg {
+		display: inline-block;
+		margin: 0 1em 1em 0;
+	}
+}

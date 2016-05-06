@@ -1,0 +1,30 @@
+{
+	"stylesDir": "styles/",
+	"localProxy": "gulp-4.lvh.me",
+	"sassDir": "styles/",
+	"cssDir": "styles/",
+	"targetSass": "styles/main.scss",
+	"compiledCss": "styles/main.min.css",
+	"sassStyle": "expanded",
+	"sassLineNumbers" : "true",
+	"baseDir": ".",
+	"tmpDir": ".tmp",
+	"jsPartialsDir": "scripts/partials/",
+	"jsDir": "scripts/",
+	"jsMain": "main.js",
+	"jsMin": "main.min.js",
+	"imagesDir": "images",
+	"iconsDir": "images/icons/",
+	"iconFontsDir": "styles/fonts/",
+	"svgDefsOutput": "svgDefs.svg",
+	"mainJsFiles": [
+		"node_modules/jquery/dist/jquery.min.js",
+		"scripts/vendor/bootstrap.js",
+		"scripts/vendor/modernizr.js",
+		"scripts/vendor/head.js",
+		"scripts/vendor/toggleAria.js",
+		"scripts/main.js",
+		"scripts/partials/breakpointer.js",
+		"scripts/main.init.js"
+	]
+}
