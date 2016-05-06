@@ -107,7 +107,7 @@ var gulp = require('gulp'),
     function tenon(done){
       gulp.src('index.html', {read: false})
       .pipe(gtenon({
-        key: 'b73c66faad6431176c739bd5c798b511',
+        key: 'enterkeyhere',
         snippet: true,
         filter: [31, 54],
         saveOutputIn: 'allHtml.json',
