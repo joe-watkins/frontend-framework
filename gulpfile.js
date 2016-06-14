@@ -44,6 +44,8 @@ var gulp = require('gulp'),
         //.pipe(cssnano())
         .pipe(sourcemaps.write("./"))
         .pipe(gulp.dest(appDefaults.stylesDir))
+        .pipe(gulp.dest(appDefaults.jekyllStyleguideCssDir))
+        .pipe(gulp.dest(appDefaults.jekyllStyleguideBuildCssDir))
         .pipe(browserSync.stream())
         .pipe(notify({ message: 'Styles task complete' }));
     }
@@ -107,7 +109,7 @@ var gulp = require('gulp'),
     function tenon(done){
       gulp.src('index.html', {read: false})
       .pipe(gtenon({
-        key: 'enterkeyhere',
+        key: 'b73c66faad6431176c739bd5c798b511',
         snippet: true,
         filter: [31, 54],
         saveOutputIn: 'allHtml.json',
@@ -128,7 +130,7 @@ var gulp = require('gulp'),
         }
       });
 
-      gulp.watch('**/*.html', tenon);
+      // gulp.watch('**/*.html', tenon);
       gulp.watch(appDefaults.sassDir+'**/*.scss', styles);
       gulp.watch(['scripts/**/*.js','!scripts/main.min.js'], gulp.series(lint,buildScripts));
       gulp.watch('gulpfile.js', gulpfile);

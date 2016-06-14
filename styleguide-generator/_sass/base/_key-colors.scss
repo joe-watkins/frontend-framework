@@ -1,0 +1,26 @@
+/**
+* Key colors for styleguide swatches
+*/
+
+.key-colors {
+
+
+	@media(min-width: 48em){
+		display: flex;
+	}
+
+	.key-color {
+		@media(min-width: 48em){
+			width: 20%;
+			margin-right: 15px;
+		}
+	}
+
+	.swatch {
+		width: 100%;
+		height: 60px;
+		background: #ddd;
+		margin: 0 0 .5em;
+	}
+
+}

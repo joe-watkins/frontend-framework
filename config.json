@@ -17,6 +17,9 @@
 	"iconsDir": "images/icons/",
 	"iconFontsDir": "styles/fonts/",
 	"svgDefsOutput": "svgDefs.svg",
+	"jekyllStyleguideDir":"styleguide",
+	"jekyllStyleguideCssDir":"styleguide/css/",
+	"jekyllStyleguideBuildCssDir":"styleguide/css/",
 	"mainJsFiles": [
 		"node_modules/jquery/dist/jquery.min.js",
 		"scripts/vendor/bootstrap.js",

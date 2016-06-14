@@ -1,0 +1,47 @@
+.sg-component
+{
+  margin: 2em 0;
+  border: 1px solid #ececec;
+}
+
+.sg-component__header
+{
+  padding: 1.5em;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ececec;
+}
+
+  .sg-component__title
+  {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #333;
+  }
+
+  .sg-component__sass
+  {
+    margin: .5em 0 0;
+    padding: 0;
+  }
+
+.sg-component__body
+{
+  padding: 1.5em;
+}
+
+.sg-h2
+{
+  margin-bottom: 1em;
+  font-size: 1.75rem;
+  text-transform:uppercase;
+}
+
+.sg-component__source pre {
+  overflow: auto;
+}
+
+// fullwidth support
+.sg-component.fullwidth .sg-component__body {
+  padding: 0;
+}

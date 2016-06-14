@@ -1,0 +1,28 @@
+# Site settings
+title: Jekyll Styleguide
+email: info@joe-watkins.io
+description: Style guide boilerplate with Jekyll
+baseurl: ""
+url: "http://www.somedomain.com/jekyllstyleguide" # the base hostname & protocol for your site
+twitter_username: _josephwatkins
+github_username:  joe-watkins
+credits: fork of "http://www.webstoemp.com/jekyllstyleguide"
+
+# Collections
+collections:
+  components:
+    output: false
+
+# Front Matter Defaults
+
+# General settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+
+destination: ../styleguide
+
+sass:
+  sass_dir: _sass
+  style: :compressed

@@ -1,0 +1,5 @@
+- name: brightBlue
+  hex: "#48f1fd"
+
+- name: anotherColor
+  hex: "#eeeeee"
