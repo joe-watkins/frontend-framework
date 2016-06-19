@@ -46,3 +46,25 @@ Have your project build your JavaScript to the `/scripts` folder and update the 
 ```
 <script src="scripts/main.min.js"></script>
 ```
+
+
+## Components
+To create a component visit the `_components` folder and create the html file. Use the following format.
+
+```
+---
+title: Buttons
+scss: '/styles/partials/sections/_buttons.scss'
+type: buttons
+fullwidth: false
+itemId: buttons
+---
+<a href="#" class="btn btn-primary">Primary Button</a>
+<a href="#" class="btn btn-default">Default</a>
+```
+
+- `title` The title of the component.
+- `scss` The path to the Sass file partial
+- `type` Used for grouping like-minded components
+- `fullwidth` If set to `true` the component will go full width of viewport instead of having padding.
+- `itemID` A unique `ID` used for the *Jump To* selector.
