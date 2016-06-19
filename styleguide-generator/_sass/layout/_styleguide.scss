@@ -45,3 +45,22 @@
 .sg-component.fullwidth .sg-component__body {
   padding: 0;
 }
+
+// jump to
+#jump-to {
+  position: fixed;
+  top: 1px;
+  right: 1px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 10px 20px;
+  background-color: #eee;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+code, kbd, pre, samp {
+  tab-size: 2;
+}

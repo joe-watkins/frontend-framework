@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<select name="jump-to" id="jump-to" onchange="document.location.href = '' + this[this.selectedIndex].value;">
+	<option value="" selected>Jump to a section...</option>
+  {% assign entries = site.components %}
+  {% for entry in entries %}
+    {% include jump-to.html %}
+  {% endfor %}
+</select>
+
 <h1>Project Styleguide</h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, quas et necessitatibus obcaecati, ratione sint modi! Ad qui neque velit esse sunt, eligendi ullam iure et eius aliquid amet inventore!</p>

@@ -1,7 +1,4 @@
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<html class="no-js">
 <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
@@ -13,11 +10,15 @@
 </head>
 <body>
 
-    {% include svg-sprite.html %}
+  {% include svg-sprite.html %}
 
-    <div class="container-fluid">
-      {{ content }}
-    </div>
+  {% include jump-to.html %}
+
+  <div class="container-fluid">
+    {{ content }}
+  </div>
+
+  <script src="scripts/main.min.js"></script>
 
 </body>
 </html>
