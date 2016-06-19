@@ -14,6 +14,9 @@ Visit `config.json` to find app configuration. There you can define paths to fol
 
 Each JS partial you create must make it into the `mainJsFiles` array. Start with 3rd party vendor scripts followed by your custom scripts and end with the `main.init.js` to trigger all the scripts. **Important:** `scripts/main.init.js` must be last in that list for build reasons. There is a `/scripts/partials/_starter-template.js` which is a great starting point for a JS file.
 
+## Jekyll Styleguide Generator
+Project leverages [JekyllStyleGuide](https://github.com/joe-watkins/jekyllstyleguide) for a static styleguide. Visit the `styleguide-generator/_config.yml` file for configuration. You may want to set the `destination` e.g. `destination: ../styleguide`
+
 ### Front end development utilizes a few helpful tools:
 * Using Sass for CSS preprocessing.
 * Using Gulp.js for the following tasks
