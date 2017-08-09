@@ -138,7 +138,10 @@
 
   </div><!--// site-wrapper -->
 
-  <script src="scripts/main.min.js"></script>
+    <!-- only load JS for modern IE and all others -->
+    <!--[if !IE|IE 9]> -->
+    <script src="scripts/main.min.js"></script>
+    <!-- <![endif]-->
 
 </body>
 
